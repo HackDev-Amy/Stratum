@@ -1,0 +1,754 @@
+[2026-10-28 07:14:59,199] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 07:15:00,170] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 07:15:00,404] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 07:15:35,284] INFO trading.tasks: Executed pending order 1
+[2026-10-28 07:15:38,267] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 07:15:39,047] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 07:15:39,209] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 07:15:51,856] INFO trading.tasks: Executed pending order 1
+[2026-10-28 07:15:55,128] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 07:15:55,818] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 07:15:55,981] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 07:16:09,932] INFO trading.tasks: Executed pending order 1
+[2026-10-28 07:16:11,251] WARNING market.services: Finnhub quote failed for AAPL: network down
+[2026-10-28 07:16:14,027] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 07:16:15,353] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 07:16:15,615] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 07:16:27,219] INFO trading.tasks: Executed pending order 1
+[2026-10-28 07:16:28,535] WARNING market.services: Finnhub quote failed for AAPL: network down
+[2026-10-28 07:16:30,357] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 07:16:31,326] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 07:16:31,354] WARNING market.services: Influx price write failed for TEST: HTTPConnection(host='influxdb', port=8086): Failed to resolve 'influxdb' ([Errno 8] nodename nor servname provided, or not known)
+[2026-10-28 07:16:31,358] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 07:44:46,681] INFO daphne.cli: Starting server at tcp:port=8000:interface=127.0.0.1
+[2026-10-28 07:44:46,682] INFO daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2026-10-28 07:44:46,682] INFO daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2026-10-28 07:44:46,683] INFO daphne.server: Listening on TCP address 127.0.0.1:8000
+[2026-10-28 07:44:52,475] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 07:45:50,980] WARNING django.request: Unauthorized: /api/trading/portfolio/
+[2026-10-28 07:45:50,981] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 07:45:51,403] WARNING django.request: Not Found: /favicon.ico
+[2026-10-28 07:46:01,680] WARNING django.request: Not Found: /static/admin/css/base.css
+[2026-10-28 07:46:01,681] WARNING django.request: Not Found: /static/admin/css/dark_mode.css
+[2026-10-28 07:46:01,699] WARNING django.request: Not Found: /static/admin/js/theme.js
+[2026-10-28 07:46:01,699] WARNING django.request: Not Found: /static/admin/css/nav_sidebar.css
+[2026-10-28 07:46:01,699] WARNING django.request: Not Found: /static/admin/css/login.css
+[2026-10-28 07:46:01,699] WARNING django.request: Not Found: /static/admin/js/nav_sidebar.js
+[2026-10-28 07:46:01,711] WARNING django.request: Not Found: /static/admin/css/responsive.css
+[2026-10-28 07:46:06,302] WARNING django.request: Not Found: /static/admin/css/dark_mode.css
+[2026-10-28 07:46:06,302] WARNING django.request: Not Found: /static/admin/css/base.css
+[2026-10-28 07:46:06,302] WARNING django.request: Not Found: /static/admin/js/theme.js
+[2026-10-28 07:46:06,307] WARNING django.request: Not Found: /static/admin/css/nav_sidebar.css
+[2026-10-28 07:46:06,307] WARNING django.request: Not Found: /static/admin/js/nav_sidebar.js
+[2026-10-28 07:46:06,308] WARNING django.request: Not Found: /static/admin/css/login.css
+[2026-10-28 07:46:06,315] WARNING django.request: Not Found: /static/admin/css/responsive.css
+[2026-10-28 07:46:14,362] WARNING django.request: Bad Request: /api/auth/register/
+[2026-10-28 07:46:14,372] WARNING django.request: Bad Request: /api/auth/login/
+[2026-10-28 07:46:37,920] WARNING django.request: Unauthorized: /api/auth/login/
+[2026-10-28 07:46:39,696] WARNING django.request: Bad Request: /api/auth/register/
+[2026-10-28 07:46:39,880] WARNING django.request: Unauthorized: /api/auth/login/
+[2026-10-28 07:46:41,760] WARNING django.request: Bad Request: /api/auth/register/
+[2026-10-28 07:46:41,944] WARNING django.request: Unauthorized: /api/auth/login/
+[2026-10-28 07:46:43,629] WARNING django.request: Bad Request: /api/auth/register/
+[2026-10-28 07:46:43,813] WARNING django.request: Unauthorized: /api/auth/login/
+[2026-10-28 07:46:47,440] WARNING django.request: Bad Request: /api/auth/register/
+[2026-10-28 07:46:47,624] WARNING django.request: Unauthorized: /api/auth/login/
+[2026-10-28 07:46:55,039] WARNING django.request: Unauthorized: /api/auth/login/
+[2026-10-28 07:47:06,008] WARNING django.request: Bad Request: /api/auth/register/
+[2026-10-28 07:47:06,192] WARNING django.request: Unauthorized: /api/auth/login/
+[2026-10-28 07:47:18,926] WARNING django.request: Bad Request: /api/auth/register/
+[2026-10-28 07:47:33,824] WARNING django.request: Bad Request: /api/auth/register/
+[2026-10-28 07:48:39,094] WARNING django.request: Unauthorized: /api/auth/login/
+[2026-10-28 07:49:03,030] WARNING django.request: Not Found: /static/admin/css/base.css
+[2026-10-28 07:49:03,030] WARNING django.request: Not Found: /static/admin/css/dark_mode.css
+[2026-10-28 07:49:03,050] WARNING django.request: Not Found: /static/admin/js/theme.js
+[2026-10-28 07:49:03,050] WARNING django.request: Not Found: /static/admin/js/nav_sidebar.js
+[2026-10-28 07:49:03,050] WARNING django.request: Not Found: /static/admin/css/nav_sidebar.css
+[2026-10-28 07:49:03,051] WARNING django.request: Not Found: /static/admin/css/login.css
+[2026-10-28 07:49:03,057] WARNING django.request: Not Found: /static/admin/css/responsive.css
+[2026-10-28 07:49:12,794] WARNING django.request: Not Found: /static/admin/css/base.css
+[2026-10-28 07:49:12,796] WARNING django.request: Not Found: /static/admin/js/nav_sidebar.js
+[2026-10-28 07:49:12,795] WARNING django.request: Not Found: /static/admin/css/dark_mode.css
+[2026-10-28 07:49:12,797] WARNING django.request: Not Found: /static/admin/js/theme.js
+[2026-10-28 07:49:12,798] WARNING django.request: Not Found: /static/admin/css/nav_sidebar.css
+[2026-10-28 07:49:12,798] WARNING django.request: Not Found: /static/admin/css/login.css
+[2026-10-28 07:49:12,811] WARNING django.request: Not Found: /static/admin/css/responsive.css
+[2026-10-28 07:49:37,345] WARNING django.request: Not Found: /static/admin/css/base.css
+[2026-10-28 07:49:37,346] WARNING django.request: Not Found: /static/admin/css/dark_mode.css
+[2026-10-28 07:49:37,348] WARNING django.request: Not Found: /static/admin/js/theme.js
+[2026-10-28 07:49:37,348] WARNING django.request: Not Found: /static/admin/js/nav_sidebar.js
+[2026-10-28 07:49:37,349] WARNING django.request: Not Found: /static/admin/css/login.css
+[2026-10-28 07:49:37,348] WARNING django.request: Not Found: /static/admin/css/nav_sidebar.css
+[2026-10-28 07:49:37,355] WARNING django.request: Not Found: /static/admin/css/responsive.css
+[2026-10-28 08:13:00,056] WARNING django.request: Not Found: /api/auth/register/
+[2026-10-28 08:13:00,492] WARNING django.request: Not Found: /api/auth/login/
+[2026-10-28 08:13:01,372] INFO trading.tasks: Executed pending order 1
+[2026-10-28 08:13:02,695] WARNING market.services: Finnhub quote failed for AAPL: network down
+[2026-10-28 08:13:06,037] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 08:13:07,266] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 08:13:07,300] WARNING market.services: Influx price write failed for TEST: HTTPConnection(host='influxdb', port=8086): Failed to resolve 'influxdb' ([Errno 8] nodename nor servname provided, or not known)
+[2026-10-28 08:13:07,301] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 08:13:16,518] INFO trading.tasks: Executed pending order 1
+[2026-10-28 08:13:17,839] WARNING market.services: Finnhub quote failed for AAPL: network down
+[2026-10-28 08:13:20,770] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 08:13:21,475] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 08:13:21,504] WARNING market.services: Influx price write failed for TEST: HTTPConnection(host='influxdb', port=8086): Failed to resolve 'influxdb' ([Errno 8] nodename nor servname provided, or not known)
+[2026-10-28 08:13:21,506] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 08:13:29,079] INFO daphne.server: Killed 0 pending application instances
+[2026-10-28 08:13:31,817] INFO daphne.cli: Starting server at tcp:port=8000:interface=127.0.0.1
+[2026-10-28 08:13:31,817] INFO daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2026-10-28 08:13:31,818] INFO daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2026-10-28 08:13:31,818] INFO daphne.server: Listening on TCP address 127.0.0.1:8000
+[2026-10-28 08:13:38,582] WARNING django.request: Method Not Allowed: /api/auth/login/
+[2026-10-28 08:13:38,601] WARNING django.request: Method Not Allowed: /api/v1/auth/login/
+[2026-10-28 08:22:29,418] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:29,430] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:29,439] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:29,447] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:29,455] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:29,462] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:29,469] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:29,477] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:29,483] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:38,104] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:38,112] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:38,118] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:38,125] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:38,131] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:38,137] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:38,143] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:38,149] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:38,155] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,084] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,092] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,099] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,105] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,112] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,118] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,124] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,130] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,137] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,290] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,342] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,351] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,364] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,370] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,377] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,383] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,389] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,395] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,470] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,477] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,490] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,496] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,502] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,509] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,515] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,521] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,527] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,652] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,660] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,666] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,673] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,679] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,685] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,691] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,697] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:39,703] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:45,295] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:45,302] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:45,308] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:45,316] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:45,322] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:45,328] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:45,334] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:45,340] WARNING django.request: Not Found: /api
+[2026-10-28 08:22:45,346] WARNING django.request: Not Found: /api
+[2026-10-28 08:23:08,799] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:08,180] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:08,187] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:08,195] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:08,201] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:08,209] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:08,216] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:08,223] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:08,230] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:08,237] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:24,781] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:24,791] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:24,800] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:24,810] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:24,819] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:24,830] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:24,841] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:24,852] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:24,862] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:38,873] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:38,884] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:38,894] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:38,903] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:38,915] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:38,929] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:38,944] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:38,955] WARNING django.request: Not Found: /api
+[2026-10-28 08:25:38,966] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:05,530] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:05,544] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:05,554] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:05,563] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:05,571] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:05,580] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:05,589] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:05,598] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:05,605] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:08,602] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:08,610] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:08,617] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:08,626] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:08,633] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:08,641] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:08,648] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:08,656] WARNING django.request: Not Found: /api
+[2026-10-28 08:26:08,664] WARNING django.request: Not Found: /api
+[2026-10-28 08:41:56,765] INFO trading.tasks: Executed pending order 1
+[2026-10-28 08:41:58,089] WARNING market.services: Finnhub quote failed for AAPL: network down
+[2026-10-28 08:42:00,586] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 08:42:01,830] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 08:42:01,864] WARNING market.services: Influx price write failed for TEST: HTTPConnection(host='influxdb', port=8086): Failed to resolve 'influxdb' ([Errno 8] nodename nor servname provided, or not known)
+[2026-10-28 08:42:01,865] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 08:43:21,021] INFO trading.tasks: Executed pending order 1
+[2026-10-28 08:43:22,346] WARNING market.services: Finnhub quote failed for AAPL: network down
+[2026-10-28 08:43:25,928] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 08:43:27,382] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 08:43:27,408] WARNING market.services: Influx price write failed for TEST: HTTPConnection(host='influxdb', port=8086): Failed to resolve 'influxdb' ([Errno 8] nodename nor servname provided, or not known)
+[2026-10-28 08:43:27,411] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 08:46:35,446] WARNING django.request: Unauthorized: /api/v1/auth/login/
+[2026-10-28 08:47:27,503] ERROR django.request: Internal Server Error: /api/v1/trading/orders/market/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 631, in thread_handler
+    raise exc_info[1]
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 631, in thread_handler
+    raise exc_info[1]
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+        request, *callback_args, **callback_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 580, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 635, in thread_handler
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 562, in func
+    return context.run(run_child)
+           ~~~~~~~~~~~^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 560, in run_child
+    return child()
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 526, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 474, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 485, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 523, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/amxxn/Downloads/APPS/THE_STRATUM/trading/views.py", line 22, in post
+    order = TradingService.place_market_order(request.user, symbol, side, qty)
+  File "/Users/amxxn/Downloads/APPS/THE_STRATUM/trading/services.py", line 24, in place_market_order
+    raise ValueError("Unknown symbol")
+ValueError: Unknown symbol
+[2026-10-28 09:12:55,849] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2026-10-28 09:12:56,620] INFO daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2026-10-28 09:12:56,621] INFO daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2026-10-28 09:12:56,621] CRITICAL daphne.server: Listen failure: Couldn't listen on 127.0.0.1:8000: [Errno 48] Address already in use.
+[2026-10-28 09:13:41,672] INFO django.utils.autoreload: /Users/amxxn/Downloads/APPS/THE_STRATUM/config/asgi.py changed, reloading.
+[2026-10-28 09:13:42,563] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2026-10-28 09:13:43,357] INFO daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2026-10-28 09:13:43,358] INFO daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2026-10-28 09:13:43,358] CRITICAL daphne.server: Listen failure: Couldn't listen on 127.0.0.1:8000: [Errno 48] Address already in use.
+[2026-10-28 09:13:54,366] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2026-10-28 09:13:55,031] INFO daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2026-10-28 09:13:55,032] INFO daphne.server: Configuring endpoint tcp:port=8010:interface=127.0.0.1
+[2026-10-28 09:13:55,032] INFO daphne.server: Listening on TCP address 127.0.0.1:8010
+[2026-10-28 09:14:09,616] INFO django.channels.server: HTTP HEAD /admin/ 302 [0.02, 127.0.0.1:55653]
+[2026-10-28 09:14:09,636] INFO django.channels.server: HTTP GET /health/ 200 [0.00, 127.0.0.1:55654]
+[2026-10-28 09:14:09,655] INFO django.channels.server: HTTP GET /ready/ 200 [0.00, 127.0.0.1:55655]
+[2026-10-28 09:16:08,969] INFO django.channels.server: HTTP GET /admin/ 302 [0.06, 127.0.0.1:55693]
+[2026-10-28 09:16:09,018] INFO django.channels.server: HTTP GET /admin/login/?next=/admin/ 200 [0.04, 127.0.0.1:55693]
+[2026-10-28 09:16:09,353] INFO django.channels.server: HTTP GET /static/admin/js/theme.js 200 [0.03, 127.0.0.1:55696]
+[2026-10-28 09:16:09,354] INFO django.channels.server: HTTP GET /static/admin/css/dark_mode.css 200 [0.03, 127.0.0.1:55694]
+[2026-10-28 09:16:09,354] INFO django.channels.server: HTTP GET /static/admin/css/base.css 200 [0.03, 127.0.0.1:55693]
+[2026-10-28 09:16:09,358] INFO django.channels.server: HTTP GET /static/admin/css/nav_sidebar.css 200 [0.04, 127.0.0.1:55695]
+[2026-10-28 09:16:09,358] INFO django.channels.server: HTTP GET /static/admin/css/login.css 200 [0.04, 127.0.0.1:55697]
+[2026-10-28 09:16:09,360] INFO django.channels.server: HTTP GET /static/admin/css/responsive.css 200 [0.04, 127.0.0.1:55698]
+[2026-10-28 09:16:09,367] INFO django.channels.server: HTTP GET /static/admin/js/nav_sidebar.js 200 [0.00, 127.0.0.1:55697]
+[2026-10-28 09:16:09,431] WARNING django.request: Not Found: /favicon.ico
+[2026-10-28 09:16:09,432] WARNING django.channels.server: HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:55697]
+[2026-10-28 09:20:18,939] INFO django.channels.server: HTTP GET /admin/ 302 [0.01, 127.0.0.1:55722]
+[2026-10-28 09:20:18,963] INFO django.channels.server: HTTP GET /admin/login/?next=/admin/ 200 [0.01, 127.0.0.1:55722]
+[2026-10-28 09:20:19,053] INFO django.channels.server: HTTP GET /static/admin/css/base.css 200 [0.01, 127.0.0.1:55722]
+[2026-10-28 09:20:19,061] INFO django.channels.server: HTTP GET /static/admin/js/theme.js 200 [0.01, 127.0.0.1:55724]
+[2026-10-28 09:20:19,062] INFO django.channels.server: HTTP GET /static/admin/js/nav_sidebar.js 200 [0.01, 127.0.0.1:55726]
+[2026-10-28 09:20:19,067] INFO django.channels.server: HTTP GET /static/admin/css/dark_mode.css 200 [0.02, 127.0.0.1:55723]
+[2026-10-28 09:20:19,067] INFO django.channels.server: HTTP GET /static/admin/css/nav_sidebar.css 200 [0.02, 127.0.0.1:55725]
+[2026-10-28 09:20:19,068] INFO django.channels.server: HTTP GET /static/admin/css/login.css 200 [0.02, 127.0.0.1:55727]
+[2026-10-28 09:20:19,073] INFO django.channels.server: HTTP GET /static/admin/css/responsive.css 200 [0.01, 127.0.0.1:55722]
+[2026-10-28 09:20:19,255] WARNING django.request: Not Found: /favicon.ico
+[2026-10-28 09:20:19,256] WARNING django.channels.server: HTTP GET /favicon.ico 404 [0.01, 127.0.0.1:55724]
+[2026-10-28 09:20:26,033] INFO django.channels.server: HTTP POST /admin/login/?next=/admin/ 200 [0.19, 127.0.0.1:55726]
+[2026-10-28 09:21:02,932] INFO django.channels.server: HTTP POST /admin/login/?next=/admin/ 200 [0.19, 127.0.0.1:55737]
+[2026-10-28 09:23:23,894] INFO django.channels.server: HTTP POST /admin/login/?next=/admin/ 302 [0.19, 127.0.0.1:55792]
+[2026-10-28 09:23:23,922] INFO django.channels.server: HTTP GET /admin/ 200 [0.02, 127.0.0.1:55792]
+[2026-10-28 09:23:23,933] INFO django.channels.server: HTTP GET /static/admin/css/dashboard.css 200 [0.00, 127.0.0.1:55792]
+[2026-10-28 09:23:23,955] INFO django.channels.server: HTTP GET /static/admin/img/icon-addlink.svg 200 [0.00, 127.0.0.1:55792]
+[2026-10-28 09:23:23,960] INFO django.channels.server: HTTP GET /static/admin/img/icon-changelink.svg 200 [0.01, 127.0.0.1:55793]
+[2026-10-28 09:24:19,729] WARNING django.request: Not Found: /api/auth/register/
+[2026-10-28 09:24:20,014] WARNING django.request: Not Found: /api/auth/login/
+[2026-10-28 09:24:20,891] INFO trading.tasks: Executed pending order 1
+[2026-10-28 09:24:22,214] WARNING market.services: Finnhub quote failed for AAPL: network down
+[2026-10-28 09:24:24,660] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 09:24:25,639] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 09:24:25,677] WARNING market.services: Influx price write failed for TEST: HTTPConnection(host='influxdb', port=8086): Failed to resolve 'influxdb' ([Errno 8] nodename nor servname provided, or not known)
+[2026-10-28 09:24:25,678] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 09:24:41,813] INFO django.utils.autoreload: /Users/amxxn/Downloads/APPS/THE_STRATUM/config/urls.py changed, reloading.
+[2026-10-28 09:24:42,513] INFO django.utils.autoreload: /Users/amxxn/Downloads/APPS/THE_STRATUM/config/urls.py changed, reloading.
+[2026-10-28 09:24:42,723] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2026-10-28 09:24:43,318] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2026-10-28 09:24:43,572] INFO daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2026-10-28 09:24:43,572] INFO daphne.server: Configuring endpoint tcp:port=8000:interface=127.0.0.1
+[2026-10-28 09:24:43,572] CRITICAL daphne.server: Listen failure: Couldn't listen on 127.0.0.1:8000: [Errno 48] Address already in use.
+[2026-10-28 09:24:44,038] INFO daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2026-10-28 09:24:44,038] INFO daphne.server: Configuring endpoint tcp:port=8010:interface=127.0.0.1
+[2026-10-28 09:24:44,039] INFO daphne.server: Listening on TCP address 127.0.0.1:8010
+[2026-10-28 09:24:46,570] INFO trading.tasks: Executed pending order 1
+[2026-10-28 09:24:47,894] WARNING market.services: Finnhub quote failed for AAPL: network down
+[2026-10-28 09:24:50,222] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 09:24:51,351] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 09:24:51,377] WARNING market.services: Influx price write failed for TEST: HTTPConnection(host='influxdb', port=8086): Failed to resolve 'influxdb' ([Errno 8] nodename nor servname provided, or not known)
+[2026-10-28 09:24:51,378] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 09:28:24,127] INFO django.channels.server: HTTP GET /admin/ 200 [0.04, 127.0.0.1:55923]
+[2026-10-28 09:28:31,710] INFO django.channels.server: HTTP GET /admin/accounts/portfolio/ 200 [0.04, 127.0.0.1:55923]
+[2026-10-28 09:28:31,987] INFO django.channels.server: HTTP GET /static/admin/css/changelists.css 200 [0.02, 127.0.0.1:55923]
+[2026-10-28 09:28:32,003] INFO django.channels.server: HTTP GET /static/admin/js/core.js 200 [0.01, 127.0.0.1:55931]
+[2026-10-28 09:28:32,003] INFO django.channels.server: HTTP GET /static/admin/js/jquery.init.js 200 [0.01, 127.0.0.1:55930]
+[2026-10-28 09:28:32,004] INFO django.channels.server: HTTP GET /static/admin/js/admin/RelatedObjectLookups.js 200 [0.01, 127.0.0.1:55932]
+[2026-10-28 09:28:32,005] INFO django.channels.server: HTTP GET /static/admin/js/actions.js 200 [0.01, 127.0.0.1:55923]
+[2026-10-28 09:28:32,006] INFO django.channels.server: HTTP GET /static/admin/js/vendor/jquery/jquery.js 200 [0.01, 127.0.0.1:55929]
+[2026-10-28 09:28:32,015] INFO django.channels.server: HTTP GET /static/admin/js/urlify.js 200 [0.01, 127.0.0.1:55931]
+[2026-10-28 09:28:32,016] INFO django.channels.server: HTTP GET /static/admin/js/prepopulate.js 200 [0.01, 127.0.0.1:55930]
+[2026-10-28 09:28:32,019] INFO django.channels.server: HTTP GET /static/admin/js/filters.js 200 [0.01, 127.0.0.1:55923]
+[2026-10-28 09:28:32,020] INFO django.channels.server: HTTP GET /static/admin/js/vendor/xregexp/xregexp.js 200 [0.01, 127.0.0.1:55932]
+[2026-10-28 09:28:32,023] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:55928]
+[2026-10-28 09:28:32,076] INFO django.channels.server: HTTP GET /static/admin/img/tooltag-add.svg 200 [0.00, 127.0.0.1:55929]
+[2026-10-28 09:28:50,716] INFO django.channels.server: HTTP GET /admin/accounts/user/ 200 [0.03, 127.0.0.1:55930]
+[2026-10-28 09:28:51,018] INFO django.channels.server: HTTP GET /static/admin/img/search.svg 200 [0.01, 127.0.0.1:55932]
+[2026-10-28 09:28:51,029] INFO django.channels.server: HTTP GET /static/admin/img/icon-no.svg 200 [0.01, 127.0.0.1:55928]
+[2026-10-28 09:28:51,038] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:55923]
+[2026-10-28 09:28:51,041] INFO django.channels.server: HTTP GET /static/admin/img/icon-yes.svg 200 [0.01, 127.0.0.1:55929]
+[2026-10-28 09:28:51,069] INFO django.channels.server: HTTP GET /static/admin/img/sorting-icons.svg 200 [0.00, 127.0.0.1:55931]
+[2026-10-28 09:28:51,072] INFO django.channels.server: HTTP GET /static/admin/img/icon-viewlink.svg 200 [0.00, 127.0.0.1:55930]
+[2026-10-28 09:29:06,389] INFO django.channels.server: HTTP GET /admin/accounts/user/3/change/ 200 [0.05, 127.0.0.1:55928]
+[2026-10-28 09:29:06,694] INFO django.channels.server: HTTP GET /static/admin/css/forms.css 200 [0.01, 127.0.0.1:55923]
+[2026-10-28 09:29:06,698] INFO django.channels.server: HTTP GET /static/admin/js/SelectBox.js 200 [0.01, 127.0.0.1:55932]
+[2026-10-28 09:29:06,706] INFO django.channels.server: HTTP GET /static/admin/js/SelectFilter2.js 200 [0.02, 127.0.0.1:55928]
+[2026-10-28 09:29:06,711] INFO django.channels.server: HTTP GET /static/admin/js/admin/DateTimeShortcuts.js 200 [0.03, 127.0.0.1:55930]
+[2026-10-28 09:29:06,712] INFO django.channels.server: HTTP GET /static/admin/js/calendar.js 200 [0.03, 127.0.0.1:55931]
+[2026-10-28 09:29:06,721] INFO django.channels.server: HTTP GET /static/admin/js/change_form.js 200 [0.02, 127.0.0.1:55923]
+[2026-10-28 09:29:06,726] INFO django.channels.server: HTTP GET /static/admin/css/widgets.css 200 [0.01, 127.0.0.1:55928]
+[2026-10-28 09:29:06,726] INFO django.channels.server: HTTP GET /static/admin/js/prepopulate_init.js 200 [0.02, 127.0.0.1:55932]
+[2026-10-28 09:29:06,729] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.05, 127.0.0.1:55929]
+[2026-10-28 09:29:06,786] INFO django.channels.server: HTTP GET /static/admin/img/selector-icons.svg 200 [0.01, 127.0.0.1:55930]
+[2026-10-28 09:29:06,788] INFO django.channels.server: HTTP GET /static/admin/img/icon-calendar.svg 200 [0.01, 127.0.0.1:55931]
+[2026-10-28 09:29:06,801] INFO django.channels.server: HTTP GET /static/admin/img/icon-clock.svg 200 [0.02, 127.0.0.1:55923]
+[2026-10-28 09:29:13,240] INFO django.channels.server: HTTP GET /admin/accounts/user/3/delete/ 200 [0.03, 127.0.0.1:55932]
+[2026-10-28 09:29:13,553] INFO django.channels.server: HTTP GET /static/admin/js/cancel.js 200 [0.01, 127.0.0.1:55929]
+[2026-10-28 09:29:16,230] INFO django.channels.server: HTTP POST /admin/accounts/user/3/delete/ 302 [0.02, 127.0.0.1:55930]
+[2026-10-28 09:29:16,254] INFO django.channels.server: HTTP GET /admin/accounts/user/ 200 [0.02, 127.0.0.1:55931]
+[2026-10-28 09:29:16,267] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:55923]
+[2026-10-28 09:33:08,950] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2026-10-28 09:33:09,794] INFO daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2026-10-28 09:33:09,794] INFO daphne.server: Configuring endpoint tcp:port=8010:interface=127.0.0.1
+[2026-10-28 09:33:09,794] CRITICAL daphne.server: Listen failure: Couldn't listen on 127.0.0.1:8010: [Errno 48] Address already in use.
+[2026-10-28 09:35:55,196] INFO django.channels.server: HTTP POST /admin/logout/ 200 [0.13, 127.0.0.1:56097]
+[2026-10-28 09:35:55,345] INFO django.channels.server: HTTP GET /static/admin/js/theme.js 304 [0.03, 127.0.0.1:56097]
+[2026-10-28 09:35:55,365] INFO django.channels.server: HTTP GET /static/admin/css/base.css 304 [0.03, 127.0.0.1:56103]
+[2026-10-28 09:35:55,373] INFO django.channels.server: HTTP GET /static/admin/css/dark_mode.css 304 [0.03, 127.0.0.1:56102]
+[2026-10-28 09:35:55,374] INFO django.channels.server: HTTP GET /static/admin/css/nav_sidebar.css 304 [0.03, 127.0.0.1:56104]
+[2026-10-28 09:35:55,375] INFO django.channels.server: HTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:56106]
+[2026-10-28 09:35:55,398] INFO django.channels.server: HTTP GET /static/admin/js/nav_sidebar.js 304 [0.04, 127.0.0.1:56105]
+[2026-10-28 09:36:13,424] INFO django.utils.autoreload: /Users/amxxn/Downloads/APPS/THE_STRATUM/config/settings.py changed, reloading.
+[2026-10-28 09:36:13,427] INFO django.utils.autoreload: /Users/amxxn/Downloads/APPS/THE_STRATUM/config/settings.py changed, reloading.
+[2026-10-28 09:36:37,858] INFO trading.tasks: Executed pending order 1
+[2026-10-28 09:36:39,180] WARNING market.services: Finnhub quote failed for AAPL: network down
+[2026-10-28 09:36:41,306] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 09:36:42,082] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 09:36:42,117] WARNING market.services: Influx price write failed for TEST: HTTPConnection(host='influxdb', port=8086): Failed to resolve 'influxdb' ([Errno 8] nodename nor servname provided, or not known)
+[2026-10-28 09:36:42,120] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 09:36:51,860] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2026-10-28 09:36:52,658] INFO daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2026-10-28 09:36:52,658] INFO daphne.server: Configuring endpoint tcp:port=8010:interface=127.0.0.1
+[2026-10-28 09:36:52,658] INFO daphne.server: Listening on TCP address 127.0.0.1:8010
+[2026-10-28 09:37:06,471] INFO django.channels.server: HTTP GET /health/ 200 [0.01, 127.0.0.1:56175]
+[2026-10-28 09:37:06,498] INFO django.channels.server: HTTP HEAD /admin/ 302 [0.01, 127.0.0.1:56176]
+[2026-10-28 10:23:17,931] INFO trading.tasks: Executed pending order 1
+[2026-10-28 10:23:19,257] WARNING market.services: Finnhub quote failed for AAPL: network down
+[2026-10-28 10:23:22,280] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 10:23:23,472] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 10:23:23,519] WARNING market.services: Influx price write failed for TEST: HTTPConnection(host='influxdb', port=8086): Failed to resolve 'influxdb' ([Errno 8] nodename nor servname provided, or not known)
+[2026-10-28 10:23:23,521] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 10:23:28,409] INFO django.channels.server: HTTP GET /health/ 200 [0.01, 127.0.0.1:56327]
+[2026-10-28 10:23:28,432] INFO django.channels.server: HTTP HEAD /admin/ 302 [0.00, 127.0.0.1:56328]
+[2026-10-28 10:24:13,823] INFO django.channels.server: HTTP GET /admin/ 302 [0.01, 127.0.0.1:56348]
+[2026-10-28 10:24:13,857] INFO django.channels.server: HTTP GET /admin/login/?next=/admin/ 200 [0.03, 127.0.0.1:56348]
+[2026-10-28 10:24:13,953] INFO django.channels.server: HTTP GET /static/admin/css/dark_mode.css 304 [0.00, 127.0.0.1:56348]
+[2026-10-28 10:24:13,962] INFO django.channels.server: HTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:56349]
+[2026-10-28 10:24:13,964] INFO django.channels.server: HTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:56348]
+[2026-10-28 10:24:13,964] INFO django.channels.server: HTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:56350]
+[2026-10-28 10:24:13,966] INFO django.channels.server: HTTP GET /static/admin/css/login.css 304 [0.01, 127.0.0.1:56353]
+[2026-10-28 10:24:13,966] INFO django.channels.server: HTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:56352]
+[2026-10-28 10:24:13,967] INFO django.channels.server: HTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:56351]
+[2026-10-28 10:24:22,164] INFO django.channels.server: HTTP GET /admin/login/?next=/health/ 200 [0.01, 127.0.0.1:56350]
+[2026-10-28 10:24:33,554] INFO django.channels.server: HTTP GET /health/ 200 [0.01, 127.0.0.1:56351]
+[2026-10-28 10:24:43,055] INFO django.channels.server: HTTP GET /ready/ 200 [0.01, 127.0.0.1:56350]
+[2026-10-28 10:24:57,080] WARNING django.request: Unauthorized: /api/trading/portfolio/
+[2026-10-28 10:24:57,080] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:25:12,074] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:25:27,076] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:25:42,077] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:25:57,186] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:26:12,284] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:26:27,374] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:26:38,288] INFO django.channels.server: HTTP GET /admin/ 302 [0.01, 127.0.0.1:56414]
+[2026-10-28 10:26:38,314] WARNING django.request: Not Found: /ops/
+[2026-10-28 10:26:38,315] WARNING django.channels.server: HTTP GET /ops/ 404 [0.01, 127.0.0.1:56415]
+[2026-10-28 10:26:38,337] WARNING django.request: Not Found: /
+[2026-10-28 10:26:38,338] WARNING django.channels.server: HTTP GET / 404 [0.01, 127.0.0.1:56416]
+[2026-10-28 10:26:38,361] WARNING django.request: Unauthorized: /api/v1/market/stocks/
+[2026-10-28 10:26:38,362] WARNING django.channels.server: HTTP GET /api/v1/market/stocks/ 401 [0.01, 127.0.0.1:56417]
+[2026-10-28 10:26:38,391] INFO django.channels.server: HTTP GET /admin/login/ 200 [0.01, 127.0.0.1:56418]
+[2026-10-28 10:26:38,409] INFO django.channels.server: HTTP GET /health/ 200 [0.00, 127.0.0.1:56419]
+[2026-10-28 10:26:41,915] INFO trading.tasks: Executed pending order 1
+[2026-10-28 10:26:43,228] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:26:43,240] WARNING market.services: Finnhub quote failed for AAPL: network down
+[2026-10-28 10:26:44,867] ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZZZZ"}}}
+[2026-10-28 10:26:45,389] ERROR yfinance: $ZZZZZZZZZZ: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+[2026-10-28 10:26:45,418] WARNING market.services: Influx price write failed for TEST: HTTPConnection(host='influxdb', port=8086): Failed to resolve 'influxdb' ([Errno 8] nodename nor servname provided, or not known)
+[2026-10-28 10:26:45,421] INFO notifications.services: [NOTIFY] test message
+[2026-10-28 10:26:59,228] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:27:15,226] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:27:31,229] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:27:47,221] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:28:03,197] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:28:19,203] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:28:35,230] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:28:51,226] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:29:07,219] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:29:23,220] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:29:32,177] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2026-10-28 10:29:33,070] INFO daphne.server: HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+[2026-10-28 10:29:33,070] INFO daphne.server: Configuring endpoint tcp:port=8010:interface=127.0.0.1
+[2026-10-28 10:29:33,071] CRITICAL daphne.server: Listen failure: Couldn't listen on 127.0.0.1:8010: [Errno 48] Address already in use.
+[2026-10-28 10:29:39,218] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:29:51,102] WARNING django.request: Unauthorized: /api/trading/portfolio/
+[2026-10-28 10:29:51,106] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:29:53,017] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:29:53,017] WARNING django.request: Unauthorized: /api/trading/portfolio/
+[2026-10-28 10:29:54,112] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:29:54,112] WARNING django.request: Unauthorized: /api/trading/portfolio/
+[2026-10-28 10:29:54,730] WARNING django.request: Unauthorized: /api/trading/portfolio/
+[2026-10-28 10:29:54,730] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:29:54,899] WARNING django.request: Unauthorized: /api/trading/portfolio/
+[2026-10-28 10:29:54,899] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:29:55,058] WARNING django.request: Unauthorized: /api/trading/portfolio/
+[2026-10-28 10:29:55,059] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:29:55,421] WARNING django.request: Unauthorized: /api/trading/portfolio/
+[2026-10-28 10:29:55,421] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:30:10,429] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:30:25,423] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:30:40,420] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:30:55,528] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:31:10,619] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:31:25,721] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:31:41,221] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:31:56,221] WARNING django.request: Unauthorized: /api/market/stocks/
+[2026-10-28 10:32:09,286] INFO django.channels.server: HTTP GET /admin/ 302 [0.01, 127.0.0.1:56496]
+[2026-10-28 10:32:09,303] INFO django.channels.server: HTTP GET /admin/login/?next=/admin/ 200 [0.01, 127.0.0.1:56496]
+[2026-10-28 10:32:15,007] INFO django.channels.server: HTTP GET /admin/login/ 200 [0.01, 127.0.0.1:56496]
+[2026-10-28 10:32:22,321] WARNING django.request: Not Found: /
+[2026-10-28 10:32:22,322] WARNING django.channels.server: HTTP GET / 404 [0.01, 127.0.0.1:56496]
+[2026-10-28 10:32:30,538] WARNING django.request: Not Found: //admin
+[2026-10-28 10:32:30,538] WARNING django.channels.server: HTTP GET //admin 404 [0.01, 127.0.0.1:56496]
+[2026-10-28 10:32:36,716] INFO django.channels.server: HTTP GET /admin 301 [0.01, 127.0.0.1:56496]
+[2026-10-28 10:32:36,726] INFO django.channels.server: HTTP GET /admin/ 302 [0.00, 127.0.0.1:56496]
+[2026-10-28 10:32:36,741] INFO django.channels.server: HTTP GET /admin/login/?next=/admin/ 200 [0.01, 127.0.0.1:56496]
+[2026-10-28 10:32:47,525] INFO django.channels.server: HTTP POST /admin/login/?next=/admin/ 200 [0.20, 127.0.0.1:56496]
+[2026-10-28 10:33:05,247] INFO django.channels.server: HTTP POST /admin/login/?next=/admin/ 200 [0.18, 127.0.0.1:56496]
+[2026-10-28 10:33:15,166] INFO django.channels.server: HTTP POST /admin/login/?next=/admin/ 200 [0.19, 127.0.0.1:56496]
+[2026-10-28 10:33:31,053] INFO django.channels.server: HTTP POST /admin/login/?next=/admin/ 302 [0.19, 127.0.0.1:56496]
+[2026-10-28 10:33:31,077] INFO django.channels.server: HTTP GET /admin/ 200 [0.01, 127.0.0.1:56496]
+[2026-10-28 10:33:31,086] INFO django.channels.server: HTTP GET /static/admin/css/dashboard.css 304 [0.00, 127.0.0.1:56496]
+[2026-10-28 10:33:31,106] INFO django.channels.server: HTTP GET /static/admin/img/icon-addlink.svg 304 [0.00, 127.0.0.1:56496]
+[2026-10-28 10:33:31,109] INFO django.channels.server: HTTP GET /static/admin/img/icon-changelink.svg 304 [0.00, 127.0.0.1:56501]
+[2026-10-28 10:33:31,120] INFO django.channels.server: HTTP GET /static/admin/img/icon-deletelink.svg 200 [0.01, 127.0.0.1:56496]
+[2026-10-28 10:36:51,022] ERROR django.request: Internal Server Error: /api/v1/trading/portfolio/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 631, in thread_handler
+    raise exc_info[1]
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 631, in thread_handler
+    raise exc_info[1]
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+        request, *callback_args, **callback_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 580, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 635, in thread_handler
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 562, in func
+    return context.run(run_child)
+           ~~~~~~~~~~~^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 560, in run_child
+    return child()
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 526, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 474, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 485, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 523, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/amxxn/Downloads/APPS/THE_STRATUM/trading/views.py", line 66, in get
+    p = request.user.portfolio
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/db/models/fields/related_descriptors.py", line 534, in __get__
+    raise self.RelatedObjectDoesNotExist(
+    ...<2 lines>...
+    )
+accounts.models.User.portfolio.RelatedObjectDoesNotExist: User has no portfolio.
+[2026-10-28 10:50:31,190] INFO django.channels.server: HTTP GET /admin/accounts/user/ 200 [0.05, 127.0.0.1:56733]
+[2026-10-28 10:50:31,375] INFO django.channels.server: HTTP GET /static/admin/css/changelists.css 200 [0.01, 127.0.0.1:56733]
+[2026-10-28 10:50:31,390] INFO django.channels.server: HTTP GET /static/admin/js/actions.js 304 [0.00, 127.0.0.1:56733]
+[2026-10-28 10:50:31,393] INFO django.channels.server: HTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:56736]
+[2026-10-28 10:50:31,394] INFO django.channels.server: HTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:56737]
+[2026-10-28 10:50:31,395] INFO django.channels.server: HTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:56738]
+[2026-10-28 10:50:31,397] INFO django.channels.server: HTTP GET /static/admin/js/prepopulate.js 200 [0.01, 127.0.0.1:56735]
+[2026-10-28 10:50:31,402] INFO django.channels.server: HTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:56733]
+[2026-10-28 10:50:31,403] INFO django.channels.server: HTTP GET /static/admin/img/icon-no.svg 304 [0.00, 127.0.0.1:56738]
+[2026-10-28 10:50:31,404] INFO django.channels.server: HTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.01, 127.0.0.1:56736]
+[2026-10-28 10:50:31,406] INFO django.channels.server: HTTP GET /static/admin/js/filters.js 304 [0.01, 127.0.0.1:56737]
+[2026-10-28 10:50:31,407] INFO django.channels.server: HTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:56735]
+[2026-10-28 10:50:31,412] INFO django.channels.server: HTTP GET /static/admin/img/icon-yes.svg 304 [0.01, 127.0.0.1:56733]
+[2026-10-28 10:50:31,417] INFO django.channels.server: HTTP GET /static/admin/img/search.svg 200 [0.00, 127.0.0.1:56738]
+[2026-10-28 10:50:31,419] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:56734]
+[2026-10-28 10:50:31,468] INFO django.channels.server: HTTP GET /static/admin/img/sorting-icons.svg 304 [0.00, 127.0.0.1:56737]
+[2026-10-28 10:50:31,469] INFO django.channels.server: HTTP GET /static/admin/img/tooltag-add.svg 200 [0.00, 127.0.0.1:56736]
+[2026-10-28 10:50:31,472] INFO django.channels.server: HTTP GET /static/admin/img/icon-viewlink.svg 200 [0.00, 127.0.0.1:56735]
+[2026-10-28 10:50:37,439] INFO django.channels.server: HTTP GET /admin/accounts/user/6/change/ 200 [0.04, 127.0.0.1:56738]
+[2026-10-28 10:50:37,554] INFO django.channels.server: HTTP GET /static/admin/css/forms.css 304 [0.00, 127.0.0.1:56734]
+[2026-10-28 10:50:37,567] INFO django.channels.server: HTTP GET /static/admin/js/change_form.js 304 [0.00, 127.0.0.1:56734]
+[2026-10-28 10:50:37,570] INFO django.channels.server: HTTP GET /static/admin/js/SelectFilter2.js 304 [0.01, 127.0.0.1:56738]
+[2026-10-28 10:50:37,573] INFO django.channels.server: HTTP GET /static/admin/js/prepopulate_init.js 200 [0.01, 127.0.0.1:56733]
+[2026-10-28 10:50:37,574] INFO django.channels.server: HTTP GET /static/admin/js/calendar.js 200 [0.02, 127.0.0.1:56736]
+[2026-10-28 10:50:37,577] INFO django.channels.server: HTTP GET /static/admin/js/SelectBox.js 200 [0.02, 127.0.0.1:56735]
+[2026-10-28 10:50:37,579] INFO django.channels.server: HTTP GET /static/admin/js/admin/DateTimeShortcuts.js 304 [0.01, 127.0.0.1:56734]
+[2026-10-28 10:50:37,582] INFO django.channels.server: HTTP GET /static/admin/css/widgets.css 200 [0.01, 127.0.0.1:56738]
+[2026-10-28 10:50:37,586] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:56737]
+[2026-10-28 10:50:37,625] INFO django.channels.server: HTTP GET /static/admin/img/icon-clock.svg 304 [0.00, 127.0.0.1:56736]
+[2026-10-28 10:50:37,626] INFO django.channels.server: HTTP GET /static/admin/img/selector-icons.svg 200 [0.01, 127.0.0.1:56733]
+[2026-10-28 10:50:37,627] INFO django.channels.server: HTTP GET /static/admin/img/icon-calendar.svg 304 [0.00, 127.0.0.1:56735]
+[2026-10-28 10:50:41,732] INFO django.channels.server: HTTP GET /admin/accounts/user/6/delete/ 200 [0.03, 127.0.0.1:56738]
+[2026-10-28 10:50:41,882] INFO django.channels.server: HTTP GET /static/admin/js/cancel.js 200 [0.00, 127.0.0.1:56737]
+[2026-10-28 10:50:43,675] INFO django.channels.server: HTTP POST /admin/accounts/user/6/delete/ 302 [0.02, 127.0.0.1:56736]
+[2026-10-28 10:50:43,786] INFO django.channels.server: HTTP GET /admin/accounts/user/ 200 [0.10, 127.0.0.1:56733]
+[2026-10-28 10:50:43,833] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:56735]
+[2026-10-28 10:50:45,432] INFO django.channels.server: HTTP GET /admin/accounts/user/2/change/ 200 [0.03, 127.0.0.1:56738]
+[2026-10-28 10:50:45,546] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56737]
+[2026-10-28 10:50:59,495] INFO django.channels.server: HTTP GET /admin/accounts/user/2/delete/ 200 [0.02, 127.0.0.1:56733]
+[2026-10-28 10:51:01,309] INFO django.channels.server: HTTP POST /admin/accounts/user/2/delete/ 302 [0.02, 127.0.0.1:56735]
+[2026-10-28 10:51:01,335] INFO django.channels.server: HTTP GET /admin/accounts/user/ 200 [0.02, 127.0.0.1:56734]
+[2026-10-28 10:51:01,352] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56738]
+[2026-10-28 10:51:03,475] INFO django.channels.server: HTTP GET /admin/accounts/user/5/change/ 200 [0.03, 127.0.0.1:56736]
+[2026-10-28 10:51:03,630] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56733]
+[2026-10-28 10:51:06,083] INFO django.channels.server: HTTP GET /admin/accounts/user/5/delete/ 200 [0.02, 127.0.0.1:56734]
+[2026-10-28 10:51:07,776] INFO django.channels.server: HTTP POST /admin/accounts/user/5/delete/ 302 [0.02, 127.0.0.1:56738]
+[2026-10-28 10:51:07,801] INFO django.channels.server: HTTP GET /admin/accounts/user/ 200 [0.02, 127.0.0.1:56737]
+[2026-10-28 10:51:07,816] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56736]
+[2026-10-28 10:51:11,672] INFO django.channels.server: HTTP GET /admin/accounts/user/4/change/ 200 [0.02, 127.0.0.1:56735]
+[2026-10-28 10:51:11,815] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56734]
+[2026-10-28 10:51:13,721] INFO django.channels.server: HTTP GET /admin/accounts/user/4/delete/ 200 [0.03, 127.0.0.1:56737]
+[2026-10-28 10:51:15,465] INFO django.channels.server: HTTP POST /admin/accounts/user/4/delete/ 302 [0.02, 127.0.0.1:56736]
+[2026-10-28 10:51:15,486] INFO django.channels.server: HTTP GET /admin/accounts/user/ 200 [0.01, 127.0.0.1:56733]
+[2026-10-28 10:51:15,501] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56735]
+[2026-10-28 10:51:17,406] INFO django.channels.server: HTTP GET /admin/accounts/user/1/change/ 200 [0.03, 127.0.0.1:56738]
+[2026-10-28 10:51:17,565] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56737]
+[2026-10-28 10:51:20,124] INFO django.channels.server: HTTP GET /admin/accounts/user/1/delete/ 200 [0.02, 127.0.0.1:56733]
+[2026-10-28 10:51:22,093] INFO django.channels.server: HTTP POST /admin/accounts/user/1/delete/ 302 [0.02, 127.0.0.1:56735]
+[2026-10-28 10:51:22,113] INFO django.channels.server: HTTP GET /admin/accounts/user/ 200 [0.01, 127.0.0.1:56734]
+[2026-10-28 10:51:22,129] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56738]
+[2026-10-28 10:51:23,520] INFO django.channels.server: HTTP GET /admin/accounts/user/7/change/ 200 [0.03, 127.0.0.1:56736]
+[2026-10-28 10:51:23,678] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56733]
+[2026-10-28 10:52:27,972] INFO django.channels.server: HTTP POST /admin/accounts/user/7/change/ 302 [0.02, 127.0.0.1:56754]
+[2026-10-28 10:52:27,990] INFO django.channels.server: HTTP GET /admin/accounts/user/ 200 [0.01, 127.0.0.1:56754]
+[2026-10-28 10:52:28,002] INFO django.channels.server: HTTP GET /static/admin/css/dark_mode.css 304 [0.00, 127.0.0.1:56754]
+[2026-10-28 10:52:28,012] INFO django.channels.server: HTTP GET /static/admin/js/theme.js 304 [0.00, 127.0.0.1:56756]
+[2026-10-28 10:52:28,012] INFO django.channels.server: HTTP GET /static/admin/css/responsive.css 304 [0.00, 127.0.0.1:56754]
+[2026-10-28 10:52:28,016] INFO django.channels.server: HTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:56757]
+[2026-10-28 10:52:28,017] INFO django.channels.server: HTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:56758]
+[2026-10-28 10:52:28,018] INFO django.channels.server: HTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:56759]
+[2026-10-28 10:52:28,029] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:56755]
+[2026-10-28 10:52:35,980] INFO django.channels.server: HTTP GET /admin/auth/group/ 200 [0.02, 127.0.0.1:56754]
+[2026-10-28 10:52:36,176] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56757]
+[2026-10-28 10:52:38,267] INFO django.channels.server: HTTP GET /admin/bot/botconfig/ 200 [0.02, 127.0.0.1:56759]
+[2026-10-28 10:52:38,416] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56755]
+[2026-10-28 10:52:40,756] INFO django.channels.server: HTTP GET /admin/bot/botlog/ 200 [0.02, 127.0.0.1:56754]
+[2026-10-28 10:52:40,916] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56757]
+[2026-10-28 10:52:42,507] INFO django.channels.server: HTTP GET /admin/market/stock/ 200 [0.02, 127.0.0.1:56759]
+[2026-10-28 10:52:42,664] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56755]
+[2026-10-28 10:52:44,025] INFO django.channels.server: HTTP GET /admin/strategy/strategyconfig/ 200 [0.02, 127.0.0.1:56754]
+[2026-10-28 10:52:44,201] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56757]
+[2026-10-28 10:52:47,299] INFO django.channels.server: HTTP GET /admin/trading/order/ 200 [0.02, 127.0.0.1:56759]
+[2026-10-28 10:52:47,466] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56755]
+[2026-10-28 10:52:51,628] INFO django.channels.server: HTTP GET /admin/trading/portfolioasset/ 200 [0.02, 127.0.0.1:56754]
+[2026-10-28 10:52:51,784] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56757]
+[2026-10-28 10:52:53,743] INFO django.channels.server: HTTP GET /admin/trading/transaction/ 200 [0.02, 127.0.0.1:56759]
+[2026-10-28 10:52:53,892] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56755]
+[2026-10-28 10:52:58,278] INFO django.channels.server: HTTP GET /admin/accounts/portfolio/ 200 [0.02, 127.0.0.1:56754]
+[2026-10-28 10:52:58,413] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56757]
+[2026-10-28 10:53:01,492] INFO django.channels.server: HTTP GET /admin/accounts/portfolio/7/change/ 200 [0.02, 127.0.0.1:56759]
+[2026-10-28 10:53:01,656] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56755]
+[2026-10-28 10:53:07,104] INFO django.channels.server: HTTP POST /admin/accounts/portfolio/7/change/ 302 [0.01, 127.0.0.1:56756]
+[2026-10-28 10:53:07,125] INFO django.channels.server: HTTP GET /admin/accounts/portfolio/ 200 [0.01, 127.0.0.1:56754]
+[2026-10-28 10:53:07,140] INFO django.channels.server: HTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56757]
+[2026-10-28 11:27:09,726] WARNING django.request: Bad Request: /api/v1/bot/
+[2026-10-28 11:27:11,087] WARNING django.request: Bad Request: /api/v1/bot/
+[2026-10-28 11:31:40,878] ERROR django.request: Internal Server Error: /api/v1/trading/orders/market/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 631, in thread_handler
+    raise exc_info[1]
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 631, in thread_handler
+    raise exc_info[1]
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+        request, *callback_args, **callback_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 580, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 635, in thread_handler
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 562, in func
+    return context.run(run_child)
+           ~~~~~~~~~~~^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 560, in run_child
+    return child()
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 526, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 474, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 485, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 523, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/amxxn/Downloads/APPS/THE_STRATUM/trading/views.py", line 22, in post
+    order = TradingService.place_market_order(request.user, symbol, side, qty)
+  File "/Users/amxxn/Downloads/APPS/THE_STRATUM/trading/services.py", line 24, in place_market_order
+    raise ValueError("Unknown symbol")
+ValueError: Unknown symbol
+[2026-10-28 11:31:42,340] ERROR django.request: Internal Server Error: /api/v1/trading/orders/market/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 631, in thread_handler
+    raise exc_info[1]
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 631, in thread_handler
+    raise exc_info[1]
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+        request, *callback_args, **callback_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 580, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 635, in thread_handler
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 562, in func
+    return context.run(run_child)
+           ~~~~~~~~~~~^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/asgiref/sync.py", line 560, in run_child
+    return child()
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 526, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 474, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 485, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/rest_framework/views.py", line 523, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/amxxn/Downloads/APPS/THE_STRATUM/trading/views.py", line 22, in post
+    order = TradingService.place_market_order(request.user, symbol, side, qty)
+  File "/Users/amxxn/Downloads/APPS/THE_STRATUM/trading/services.py", line 24, in place_market_order
+    raise ValueError("Unknown symbol")
+ValueError: Unknown symbol
+[2026-10-28 11:36:12,921] WARNING django.request: Unauthorized: /api/v1/auth/login/

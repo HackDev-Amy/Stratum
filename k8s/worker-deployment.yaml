@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trading-worker
+spec:
+  replicas: 2
+  selector:
+    matchLabels: { app: trading-worker }
+  template:
+    metadata:
+      labels: { app: trading-worker }
+    spec:
+      containers:
+        - name: worker
+          image: your-registry/trading-platform:latest
+          command: ["celery", "-A", "config", "worker", "-l", "info"]
+          envFrom:
+            - secretRef: { name: trading-secrets }
+            - configMapRef: { name: trading-config }
+          resources:
+            requests: { cpu: "100m", memory: "256Mi" }
+            limits: { cpu: "500m", memory: "512Mi" }

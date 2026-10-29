@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trading-beat
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: trading-beat }
+  template:
+    metadata:
+      labels: { app: trading-beat }
+    spec:
+      containers:
+        - name: beat
+          image: your-registry/trading-platform:latest
+          command: ["celery", "-A", "config", "beat", "-l", "info"]
+          envFrom:
+            - secretRef: { name: trading-secrets }
+            - configMapRef: { name: trading-config }
+          resources:
+            requests: { cpu: "50m", memory: "128Mi" }
+            limits: { cpu: "200m", memory: "256Mi" }
